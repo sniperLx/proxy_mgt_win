@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B88EF"/>
+      <stop offset="1" stop-color="#174DAB"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tileClip">
+      <rect x="8" y="8" width="240" height="240" rx="55"/>
+    </clipPath>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="55" fill="url(#tile)"/>
+  <rect x="8" y="8" width="240" height="240" rx="55" fill="url(#gloss)"/>
+  <rect x="9.5" y="9.5" width="237" height="237" rx="53.5"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1.5"/>
+
+  <g fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round">
+    <path d="M75 95H162"/>
+    <path d="M181 161H94"/>
+  </g>
+  <path d="M190 95 151 59V131Z" fill="#FFFFFF"/>
+  <path d="M66 161 105 125V197Z" fill="#FFFFFF"/>
+</svg>
